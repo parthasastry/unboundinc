@@ -4,8 +4,8 @@ const About = () => {
   return (
     <>
       <div name="about" className="w-full flex flex-col justify-between">
-        <div className="grid md:grid-cols-2 max-w-[1240px] text-center py-2">
-          <div>
+        <div className="grid md:grid-cols-2 max-w-[1240px] text-center m-2 gap-4">
+          <div className="border rounded bg-indigo-500 text-white">
             <p className="text-2xl font-bold">Training and consulting</p>
             <p className="text-sm leading-6 p-2">
               We are pioneers in delivering software solutions by implementing
@@ -17,7 +17,7 @@ const About = () => {
               perform at their peak levels.
             </p>
           </div>
-          <div>
+          <div className="border rounded bg-indigo-500 text-white">
             <p className="text-2xl font-bold">IT Staffing</p>
             <p className="text-sm leading-6 p-2">
               We give you the right kind of people who you need to fulfill on

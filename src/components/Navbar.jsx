@@ -3,6 +3,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import { GrServices } from "react-icons/gr";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,6 +16,7 @@ const Navbar = () => {
         <div className="px-2 flex justify-between items-center w-full h-full">
           <div className="flex justify-between items-center">
             <GrServices size={30} />
+            {/* <img src={logo} alt="logo" /> */}
             <ul className="hidden uppercase md:flex md:px-20">
               <li className="p-4">
                 <Link to="home" smooth={true} duration={500}>
