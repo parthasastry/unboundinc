@@ -15,8 +15,9 @@ const Navbar = () => {
       <div className="w-screen h-[60px] z-10 bg-zinc-50 fixed drop-shadow-lg">
         <div className="px-2 flex justify-between items-center w-full h-full">
           <div className="flex justify-between items-center">
-            <GrServices size={30} />
+            {/* <GrServices size={30} /> */}
             {/* <img src={logo} alt="logo" /> */}
+            <p className="uppercase font-bold">Unbound Solutions Inc.</p>
             <ul className="hidden uppercase md:flex md:px-20">
               <li className="p-4">
                 <Link to="home" smooth={true} duration={500}>
@@ -24,12 +25,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="p-4">
-                <Link to="about" smooth={true} offset={-200} duration={500}>
+                <Link to="about" smooth={true} offset={-75} duration={500}>
                   About
                 </Link>
               </li>
               <li className="p-4">
-                <Link to="team" smooth={true} offset={-50} duration={500}>
+                <Link to="team" smooth={true} offset={-75} duration={500}>
                   Team
                 </Link>
               </li>

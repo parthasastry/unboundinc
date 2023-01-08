@@ -7,9 +7,13 @@ const Team = () => {
     <>
       <div name="team">
         <p className="uppercase font-bold text-xl text-center">Team</p>
-        <div className="grid md:grid-cols-2 max-w-[1240px] text-center py-2">
-          <div className="p-2">
-            <img src={Asutosh} alt="asutosh" />
+        <div className="grid md:grid-cols-2 max-w-[1240px] text-center py-2 gap-4 m-2 ">
+          <div className="p-2 border rounded bg-indigo-50">
+            <div className="flex">
+              <img src={Asutosh} alt="asutosh" />
+              <p className="uppercase font-bold px-5">Asutosh Rai</p>
+            </div>
+
             <p className="text-sm">
               He has over 20 years in the IT Industry having worked for
               companies like IBM Global and Cognizant to name a few. He has a
@@ -22,8 +26,12 @@ const Team = () => {
               Whisperer program.
             </p>
           </div>
-          <div className="p-2">
-            <img src={Vidhya} alt="asutosh" />
+          <div className="p-2 border rounded bg-cyan-50">
+            <div className="flex">
+              <img src={Vidhya} alt="vidya" />
+              <p className="uppercase font-bold px-5">Vidya Iyer</p>
+            </div>
+
             <p className="text-sm">
               The founder and CEO of Unbound Solutions, a woman owned startup
               committed to empowerment of women in workforce, and an MBA and a

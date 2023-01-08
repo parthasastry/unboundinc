@@ -24,15 +24,15 @@ const Home = () => {
         </div>
         <div className="px-2">
           <p className="font-bold text-xl">Vision</p>
-          <p className="p-2 text-sm">
+          <p className="text-sm">
             To be the industry’s premier service provider by delivering
             solutions that is shaped by what the customer needs.
           </p>
-          <p className="p-2 text-sm">
+          <p className="text-sm">
             As a woman-owned startup we ongoingly create programs that empower
             diversity and inclusion within organizations.
           </p>
-          <p className="p-2 text-sm">
+          <p className="text-sm">
             We empower women to revel as entrepreneurs and leaders at the
             workplace We translate ideas into reality.
           </p>

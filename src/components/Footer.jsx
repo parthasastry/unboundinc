@@ -1,4 +1,5 @@
 import React from "react";
+import { AiFillFacebook, AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -27,6 +28,14 @@ const Footer = () => {
           </div>
         </div>
         <div>
+          <div className="flex justify-center">
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+              <AiFillFacebook size={30} />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+              <AiFillLinkedin size={30} />
+            </a>
+          </div>
           <p className="text-sm">
             All rights reserved. &copy; Unbound solutions {currentYear}
           </p>
